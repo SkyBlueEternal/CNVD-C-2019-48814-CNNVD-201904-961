@@ -1,4 +1,5 @@
 # CNVD-C-2019-48814</br>
+感谢t00ls-ximcx0101提供脚本</br>
 CNVD-C-2019-48814 POC 集合</br>
 1.Linux
 ```
