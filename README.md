@@ -1,6 +1,6 @@
 # CNVD-C-2019-48814</br>
 感谢t00ls-ximcx0101提供脚本</br>
-CNVD-C-2019-48814 POC 集合</br>
+CNVD-C-2019-48814 POC Summary</br>
 1.Linux
 ```
 POST /_async/AsyncResponseService HTTP/1.1
