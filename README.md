@@ -1,4 +1,4 @@
-# CNVD-C-2019-48814</br>
+# CNVD-C-2019-48814和CNNVD-201904-961</br>
 感谢t00ls-ximcx0101提供脚本</br>
 CNVD-C-2019-48814 POC Summary</br>
 1.Linux
