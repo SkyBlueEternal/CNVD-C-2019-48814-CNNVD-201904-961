@@ -1,13 +1,17 @@
 # CNVD-C-2019-48814和CNNVD-201904-961</br>
 感谢t00ls-ximcx0101提供脚本</br>
 CNVD-C-2019-48814 POC Summary</br>
-目前清水川崎大佬简书已经更新反序列化上传POC。</br>
 相关链接如下:</br>
 清水川崎大佬的简书:
 https://www.jianshu.com/p/c4982a845f55</br>
 安全祖师爷转发:
 https://dwz.cn/2GQvbUae</br>
-
+由于环境的一些因素路径会存在变化:</br>
+默认上传路径为:</br>
+servers/AdminServer/tmp/_WL_internal/bea_wls9_async_response/8tpkys/war/</br>
+servers/AdminServer/tmp/_WL_internal/bea_wls_internal/9j4dqk/war/</br>
+另外可测试路径:</br>
+com.oracle.webservices.wls.bea-wls9-async-response_12.1.3/2ig01a/war</br>
 影响范围:WebLogic 10.*、12.1.3</br>
 在Weblogic 10.*测试通过：</br>
 1.Linux
