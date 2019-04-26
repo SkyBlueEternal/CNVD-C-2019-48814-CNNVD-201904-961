@@ -1,9 +1,9 @@
 # CNVD-C-2019-48814和CNNVD-201904-961</br>
 感谢t00ls-ximcx0101提供脚本</br>
 CNVD-C-2019-48814 POC Summary</br>
-目前清水大佬简书已经更新反序列化上传POC。</br>
+目前清水川崎大佬简书已经更新反序列化上传POC。</br>
 相关链接如下:</br>
-清水大佬的博客:
+清水川崎大佬的博客:
 https://www.jianshu.com/p/c4982a845f55</br>
 安全祖师爷转发:
 https://dwz.cn/2GQvbUae</br>
