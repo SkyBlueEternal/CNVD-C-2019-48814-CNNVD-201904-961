@@ -3,7 +3,7 @@
 CNVD-C-2019-48814 POC Summary</br>
 目前清水川崎大佬简书已经更新反序列化上传POC。</br>
 相关链接如下:</br>
-清水川崎大佬的博客:
+清水川崎大佬的简书:
 https://www.jianshu.com/p/c4982a845f55</br>
 安全祖师爷转发:
 https://dwz.cn/2GQvbUae</br>
